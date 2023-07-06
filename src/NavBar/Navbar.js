@@ -5,8 +5,8 @@ function Navbar() {
   return (
     <div className="container my-2">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul className="navbar-nav">
+            <div className="navbar-collapse justify-content-center" id="navbarNav">
+                <ul className="navbar-nav text-center">
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/">Home Page</NavLink>
                     </li>

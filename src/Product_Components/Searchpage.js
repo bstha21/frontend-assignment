@@ -9,7 +9,7 @@ function Searchpage(props) {
     <>
       <div className="container my-5">
         <div className="d-flex justify-content-center">
-          <input className="form-control me-2" type="search" placeholder="Type your query here" style={{ width: "40%" }} onChange={(e) => setSearchResult(e.target.value)} />
+          <input className="form-control me-2" type="search" placeholder="Type your query here" style={{ width: "80%" }} onChange={(e) => setSearchResult(e.target.value)} />
         </div>
       </div>
       <div className="container my-5">
